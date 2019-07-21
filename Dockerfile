@@ -6,4 +6,4 @@ RUN apt-get update && apt-get upgrade -y \
     && wget "https://github.com/jagrosh/MusicBot/releases/download/$VERSION/JMusicBot-$VERSION-Linux.jar" -O /usr/src/musicbot/JMusicBot.jar
 VOLUME /usr/src/musicbot/config
 ENV APP_ENV=docker
-CMD ["java", "-Dconfig=/usr/src/musicbot/config/config.txt", "-jar", "JMusicBot.jar", "-Dnogui=true"]
+CMD ["java", "-Dconfig=/usr/src/musicbot/config/config.txt", "-Dnogui=true" , "-jar", "JMusicBot.jar"]
