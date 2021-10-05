@@ -23,7 +23,7 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag theiam79/jmusicbot:$(date +%s)
+      run: docker build . --file Dockerfile --tag theiam79/jmusicbot:latest
 
     - name: Push to dockerhub
-      run: docker push theiam79/jmusicbot:$(date +%s)
+      run: docker push theiam79/jmusicbot:latest
