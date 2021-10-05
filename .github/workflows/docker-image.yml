@@ -26,4 +26,4 @@ jobs:
       run: docker build . --file Dockerfile --tag theiam79/jmusicbot:$(date +%s)
 
     - name: Push to dockerhub
-      run: docker push ${{secrets.DOCKER_USER}}/jmusicbot
+      run: docker push theiam79/jmusicbot
