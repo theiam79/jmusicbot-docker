@@ -1,4 +1,4 @@
-FROM openjdk:8u212
+FROM openjdk:22-jdk-slim
 WORKDIR /usr/src/musicbot
 RUN apt-get update && apt-get upgrade -y \
     && apt install -y curl wget \ 
