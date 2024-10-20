@@ -4,7 +4,7 @@ Original repository: https://github.com/jagrosh/MusicBot
 
 Original creator: jagrosh
 
-Current version: 0.4.1
+Current version: 0.4.3
 
 **Thanks to jagrosh for his amazing bot!**
 
